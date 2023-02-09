@@ -10,7 +10,6 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <p>Oi</p>
         <div className="topo">
           <img src={foto} alt="foto de Pedro" id="minha_foto" />
       </div>
