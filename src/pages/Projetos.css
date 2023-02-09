@@ -1,0 +1,25 @@
+.projetos > section {
+    border: solid 2px red;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .title {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+  }
+
+  
+  @media screen and (max-width: 715px) {
+    .projetos {
+        margin-left: 30px;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+  }

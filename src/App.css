@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+  position: relative;
+  height: 100vh;
+    width: 100vw;
+}
+
+/* Página solutions */
+.solutions h1 {
+  color: whitesmoke;
+  margin-bottom: -150px;
+}
+
+.solutions {
+  padding: 30px 70px 90px 70px;
+  text-align: center;
+}
+
+
+/* Página sobre mim */
+.sobre {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  margin-top: 200px;
+}
+
+
+.sobre-mim {
+  padding: 30px 70px 90px 70px;
+  text-align: center;
+}
+
+.sobre-mim  h1{
+ color: whitesmoke;
+ margin-bottom: -150px;
+}
+.imagen-div {
+  display: inline-block;
+  width: 25%;
+  margin: 90px;
+  border-radius: 10px;
+  border:solid 2px  red;
+}
+
+.paragrafo {
+  margin: 90px auto;
+font-size: 24px;
+line-height:30px ;
+margin-top: 10px;
+margin-bottom: 50px;
+  max-width: 600%;
+  text-align: center;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.n-list :hover {
+  color: red;
+  cursor: pointer;
+}
+
+.header {
+  color: whitesmoke;
+}
+
+/* Página Home */
+.topo {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.name {
+  margin: 90px auto;
+  font-size: 30px;
+  line-height:30px ;
+  margin-top: 10px;
+  margin-bottom: 50px;
+    max-width: 600%;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo > img {
+  border-radius: 200px;
+  border: solid 1px red;
+  height: 100px;
+}
+
+
+.social {
+  margin-top: 18px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.btn :hover{
+  background-color: red;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 80px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link :hover {
+  color: red;
+}
+
+
+.imagem {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px red;
+}
+
+
+.lista {
+  border: 1px red;
+  width: 30%;
+  margin: 90px;
+  display: inline-block;
+  color: whitesmoke;
+}
+
+.lista p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.lista h2 {
+  background-color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+section {
+  color: whitesmoke;
+}
+
+aside {
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav a {
+  margin: 7px;
+}
+
+/* Página projetos */
+.secao-projetos {
+  padding: 30px 70px 90px 70px;
+  text-align: center;
+}
+
+.depoimento {
+  border: 1px red;
+  width: 30%;
+  margin: 90px;
+  display: inline-block;
+  color: whitesmoke;
+}
+
+.depoimento p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.imagem-redonda {
+  border-radius: 50%;
+}
+
+.paragrafo {
+  padding: 10px ;
+}
+
+
+/* Abaixo está o código de como deixar responsivo. */
+
+@media (max-width: 715px){
+  .topo{
+      font-size: 60px;
+      /* color: red; */
+  }
+
+
+  button {
+    background-color: yellow;
+  }
+
+  .paragrafo {
+    font-size: 18px;
+    color: yellow;
+  }
+
+  .name {
+    font-size: 20px;
+    color: yellow;
+  }
+
+  .sobre-mim h1 {
+    color: yellow;
+  }
+
+  .link {
+    color: yellow;
+  }
+
+  .lista ul{
+    font-size: 28px;
+}
+
+.lista p {
+  margin-bottom: 30px;
+}
+  .section{
+      width: 80%;
+      min-height: 250px;
+  }
+
+  .article {
+    font-size: 28px;
+  }
+
+  .aside {
+    font-size: 28px;
+  }
+
+
+.secao-projetos h1 {
+  color: yellow;
+}
+
+.depoimento p {
+  color: yellow;
+}
+
+  .projetos {
+    width: 80%;
+    min-height: 250px;
+  }
+  .n-list {
+    justify-content: center;
+    align-items: center;
+  }
+}
