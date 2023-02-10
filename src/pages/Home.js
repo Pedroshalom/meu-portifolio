@@ -16,7 +16,7 @@ class Home extends React.Component {
       <p className="name">Pedro manoel</p>
       <div className="paragrafo">
             <p>
-              Olá, seja bem vindo(a) a minha ao meu portifolio.
+              Olá, seja bem vindo(a) ao meu portifolio.
               </p>
               </div>
         
