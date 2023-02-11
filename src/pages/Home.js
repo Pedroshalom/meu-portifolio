@@ -14,6 +14,7 @@ class Home extends React.Component {
           <img src={foto} alt="foto de Pedro" id="minha_foto" />
       </div>
       <p className="name">Pedro manoel</p>
+      <p className="tec">Desenvolvedor full-stack Front-end</p>
       <div className="paragrafo">
             <p>
               Olá, seja bem vindo(a) ao meu portifolio.

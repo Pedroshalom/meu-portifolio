@@ -94,6 +94,19 @@ margin-bottom: 50px;
     align-items: center;
 }
 
+.tec {
+  font-size: 15px;
+  line-height:30px ;
+  margin-top: -50px;
+  margin-bottom: 50px;
+    max-width: 600%;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topo > img {
   border-radius: 200px;
   border: solid 1px red;
