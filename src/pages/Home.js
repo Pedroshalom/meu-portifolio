@@ -15,6 +15,7 @@ class Home extends React.Component {
       </div>
       <p className="name">Pedro manoel</p>
       <p className="tec">Desenvolvedor Front-end</p>
+      A
       <div className="paragrafo">
             <p>
               Olá, seja bem vindo(a) ao meu portifolio.
