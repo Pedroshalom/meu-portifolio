@@ -1,17 +1,16 @@
 .titulos {
-  
     color:rgba(255,255,255,.1);
     background:linear-gradient(
-      rgb(255,255,255),
-      rgb(255,0,0));
+    rgb(255,255,255),
+    rgb(255,0,0));
     background-size:400%;
     -webkit-background-clip:text;
     background-clip:text;
     cursor: pointer;
     font-weight:20px;
     font-size:40px;
-  text-align: center;
-  animation:sTransition 10s linear infinite;
+    text-align: center;
+    animation:sTransition 10s linear infinite;
 } @keyframes sTransition{
   0%{
     background-position:0%;
@@ -24,11 +23,20 @@
 .titulos:hover{
   font-size:50px;
   }
+
+  .carr {
+    align-items: center;
+  }
   
 .item-1 {
   display: flex;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 200px;
+ flex-direction: column;
+  margin-left: 30px;
   align-items: center;
-  margin-left: 190px;
+  border: solid 1px whitesmoke;
 }
 
 .link-button {

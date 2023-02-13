@@ -339,20 +339,24 @@ nav a {
 
   .paragrafo {
     font-size: 18px;
-    color: yellow;
+    color:  rgb(255,0,0)
   }
 
   .name {
     font-size: 20px;
-    color: yellow;
+    color:  rgb(255,0,0)
+  }
+
+  .tec {
+    color:  rgb(255,0,0);
   }
 
   .sobre-mim h1 {
-    color: yellow;
+    color: rgb(255,0,0)
   }
 
   .link {
-    color: yellow;
+    color:  rgb(255,0,0);
   }
 
   .lista ul{
