@@ -3,7 +3,6 @@ import "./Projetos.css";
 import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
-// import github from '../images/ggit.png';
 import foto from '../images/print.png';
 import print2 from '../images/print2.png';
 
