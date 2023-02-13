@@ -14,7 +14,7 @@ class Home extends React.Component {
           <img src={foto} alt="foto de Pedro" id="minha_foto" />
       </div>
       <p className="name">Pedro manoel</p>
-      <p className="tec">Desenvolvedor full-stack Front-end</p>
+      <p className="tec">Desenvolvedor Front-end</p>
       <div className="paragrafo">
             <p>
               Olá, seja bem vindo(a) ao meu portifolio.
@@ -31,19 +31,16 @@ class Home extends React.Component {
             <a class="git" href="https://wa.me/+5584987836762" target="_blank" rel="noreferrer"><img src={Whatsapp} width="35px"
             height="35px" alt="icone do github" /></a>
         </nav>
-        <div  className="btn">
-        <button>baixar meu currículo</button>
-        </div>
         <span className="n-list">
-       <Link className="link" to="/Trabalhos"> <i className='fi-rr-briefcase option-icon'></i>Trabalhos</Link>
+       <Link className="link" to="/Tecnologias">Tecnologias</Link>
          </span>
          <span className="n-list">
           <br/>
-         <Link className="link" to="/Sobre-mim"> <i className='fi-rr-laptop option-icon'></i>Sobre Mim</Link>
+         <Link className="link" to="/Sobre-mim">Sobre Mim</Link>
          </span>
          <br/>
          <span className="n-list">
-         <Link className="link" to="/projetos"> <i className='fi-rr-edit-alt option-icon'></i>Projetos</Link>
+         <Link className="link" to="/projetos">Projetos</Link>
          </span>
          <br/>
          <br/>

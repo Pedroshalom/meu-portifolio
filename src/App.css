@@ -36,14 +36,32 @@ body {
   text-align: center;
 }
 
-.sobre-mim  h1{
- color: whitesmoke;
- margin-bottom: -150px;
+.titulos {
+  color:rgba(255,255,255,.1);
+  background:linear-gradient(
+    rgb(255,255,255),
+    rgb(255,0,0));
+  background-size:400%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  cursor: pointer;
+  font-weight:20px;
+  font-size:40px;
+text-align: center;
+animation:sTransition 10s linear infinite;
+} @keyframes sTransition{
+0%{
+  background-position:0%;
+}
+100%{
+  background-position:400%;
+}
 }
 .imagen-div {
   display: inline-block;
   width: 25%;
   margin: 90px;
+  margin-top: -100px;
   border-radius: 10px;
   border:solid 2px  red;
 }
@@ -62,9 +80,96 @@ margin-bottom: 50px;
   align-items: center;
 }
 
+*{
+  margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+  
+  display: flex;
+  flex-direction: column;
+ background-color: black !important;
+  color:white !important;
+  
+}
+   
+ .div-header{
+   width:100%;
+  display: flex;
+  justify-items: end;
+  justify-content:flex-end;
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid white;
+  
+  }
+ .link{
+  
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1px 5px;
+  margin-right: 5px;
+  color:gray;
+  
+}
+.link:hover{
+  color:white;
+  font-size: 30px;
+
+}
+.titulo{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+  color:  rgb(26, 235, 235);
+} 
+
+.todos-icones{
+  
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ justify-content: center;
+  
+}
+.card-img-top{
+  width: 200px;
+  height: 100px;
+}
+
+.icone{
+  display: flex;
+  
+ flex-direction: column;
+  border-bottom: 2px solid white;
+  margin-left: 30px;
+  align-items: center;
+
+}
+
 .n-list :hover {
-  color: red;
+  color:rgba(255,255,255,.1);
+  background:linear-gradient(
+  rgb(255,255,255),
+  rgb(255,0,0));
+  background-size:400%;
   cursor: pointer;
+  -webkit-background-clip:text;
+  background-clip:text;
+  font-weight:20px;
+  font-size:20px;
+text-align: center;
+animation:sTransition 10s linear infinite;
+} @keyframes sTransition{
+0%{
+  background-position:0%;
+}
+100%{
+  background-position:400%;
+}
 }
 
 .header {
@@ -132,24 +237,16 @@ button {
   padding: 5px;
 }
 
-.btn :hover{
-  background-color: red;
-  color: whitesmoke;
-  cursor: pointer;
-}
-
 .link {
   margin-top: 80px;
-  color: whitesmoke;
+  color:whitesmoke;
+  background:(
+  rgb(255,255,255),
+  rgb(255,0,0));
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.link :hover {
-  color: red;
-}
-
 
 .imagem {
   height: 90px;

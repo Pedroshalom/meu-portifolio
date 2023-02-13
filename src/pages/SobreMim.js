@@ -12,7 +12,7 @@ class SobreMim extends React.Component {
     // const { voltarBtn } = this.state
     return (
       <div className="sobre-mim">
-        <h1>Sobre Mim</h1>
+        <h1 className='titulos'>Sobre Mim</h1>
         <section  className='sobre'>
           <article>
           <img
@@ -22,19 +22,17 @@ class SobreMim extends React.Component {
         />         
         <div className="paragrafo">
             <p>
-              Olá sou o Pedro, seja bem vindo(a) a minha homePage. Moro na cidade de Natal-RN.   Sou casado com uma esposa perfeita por sinal, sou pai da menina mais linda que Deus me deu, a (Maju),
-              sou torcedor do Flamengo e meus hobbys favoritos são: assitir futebol, sair com amigos, ir a praia e escutar música boa.
-              Meu aprendizado na Trybe está sendo bem especial,
+              Olá meu nome é Pedro e sou apreciador da tecnologia,
+ e marcas que trabalhem para contribuir com uma
+              melhor interação digital.
               não sabia nada de programação e hoje ja estou começando
               a fazer coisas que nen eu imaginava. Estou ganhando um conhecimento que nunca será perdido.
-              Abaixo estão agumas lições que aprendi e que ainda vou aprender nesta minha jornada.
+              Atualmente sou estudante de desenvolvimento WEB FullStack na Trybe e
+estou em      busca do meu primeiro emprego!
               </p>
               </div>
           </article>
         </section>
-        {/* <div className="topo">
-          <img src={foto} alt="foto de Pedro" id="minha_foto" />
-        </div> */}
 
       <span className="n-list">
        <Link className="link" to="/">Página Inicial</Link>
